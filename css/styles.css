@@ -1,2 +1,134 @@
 @import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
 
+.navigation {
+    background-color: cadetblue; 
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.navigation li {
+    float: left;
+}
+
+.navigation li a, .navigation__dropdownButton {
+    display: block;
+    color: white;
+    font-size: 35px;
+    padding: 14px 16px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation__item__icon {
+    width: 35px;
+}
+
+.navigation__dropdown {
+    display: block;
+}
+
+.navigation__dropdownContent{
+    background-color: cadetblue;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.navigation__dropdownContent a {
+    color: white;
+    display: block;
+    font-size: 30px;
+    padding: 12px 16px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.navigation__dropdown:hover .navigation__dropdownContent{
+    display: block;
+}
+
+.mainCenter {
+    justify-content: center;
+    padding: 40px 50px;
+}
+
+.mainCenter section div {
+    text-align: center;
+}
+
+.mainCenter__image {
+    width: 1800px;
+    height: 1200px;
+}
+
+.mainCenter__images img {
+    float: left;
+    padding: 0px 70px 0px 85px;
+    overflow: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.mainCenter__image--right {
+    float: right;
+    width: 700px;
+    height: 400px;
+}
+
+.mainCenter__image--left {
+    float: left;
+    width: 600px;
+    height: 300px;
+}
+
+.footer {
+    margin-top: 300px;
+    background-color: black;
+}
+
+.footer--dining {
+    background-color: black;
+}
+
+.footer--room {
+    background-color: black;
+}
+
+.footer--room ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer--dining ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    bottom: 0;
+    text-align: center;
+}
+
+.footer__element {
+    display: inline;
+}
+
+.footer__image {
+    padding: 5px 15px;
+    border-radius: 50%;
+}
